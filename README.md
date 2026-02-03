@@ -3,12 +3,12 @@ This repository constains the Sage code I've implemented during my Master's Degr
 
 ### Running Sage code: beginner's guide
 
-You can follow Sage installation guide (https://doc.sagemath.org/html/en/installation/index.html#) and lauching it following [this instructions] (https://doc.sagemath.org/html/en/installation/launching.html).
+You can follow [Sage installation guide](https://doc.sagemath.org/html/en/installation/index.html#) and lauching it following [this instructions](https://doc.sagemath.org/html/en/installation/launching.html).
 However, I have installed Sage through a Docker image, and I have run it into a jupyter notebook in VS Code. Next, I will detail the process I followed.
 
-1. [Install Docker] (https://docs.docker.com/engine/install/) and launch it.
+1. [Install Docker](https://docs.docker.com/engine/install/) and launch it.
 
-2. Look in [Docker Hub] (https://hub.docker.com/) a Sagemath image. I recommend the versions in sagemath/sagemath-dev.
+2. Look in [Docker Hub](https://hub.docker.com/) a Sagemath image. I recommend the versions in sagemath/sagemath-dev.
 
 3. Select a tag and run the pull command.
   ```sh
