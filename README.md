@@ -45,3 +45,7 @@ I refer you to the `Usage.ipynb` file to consult an example of my code's usage.
 > Behn A., Rodíguez R.E, & Rojas A.M. (2013).
 > Adapted hyperbolic polygons and symplectic representations for gtoup actions on Riemann surfaces.
 > Journal of Pure and Applied Algebra, 217(3), 409-426.
+>
+> Guajardo Vásquez, C. (2025).
+> On the action of the automorphism group of a compact Riemann surface in its set of systoles.
+> [Tesis de Magíster, Universidad de Chile](https://repositorio.anid.cl/entities/tesis/3af12d35-b69c-43cd-b95c-6d18aab8c90d).
