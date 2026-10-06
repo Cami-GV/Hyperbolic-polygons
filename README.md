@@ -28,7 +28,7 @@ and then copy the shown url.
 
 6. Open a jupyter notebook in VS Code, click "Select Kernel" and paste the url.
 
-7. Done! When you finish your work session, use
+7. Done! When you have finished your working session, type
 ```sh
 docker stop
 ```
@@ -37,6 +37,26 @@ to stop the container. To initialize it, use
 docker start -i <container_name>
 ```
 and run the command in step 5.
+
+Note: Once you have started the container, in sage console you can run
+```sh
+sage -i gap_packages
+```
+to load GAP packages. If you want to load specific packages, e.g., kbmag you can 
+go through gap console via
+```sh
+sage --gap
+```
+and load them as follows:
+```sh
+gap> LoadPackage("PackageManager");
+true
+gap> InstallPackage("kbmag");
+true
+gap> LoadPackage("kbmag");
+true
+```
+After this process, package will be installed for once and for all. You can just load them in your next working sessions. 
 
 I refer you to the `Usage.ipynb` file to consult an example of my code's usage.
 
