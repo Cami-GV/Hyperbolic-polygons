@@ -38,12 +38,11 @@ docker start -i <container_name>
 ```
 and run the command in step 5.
 
-Note: Once you have started the container, in sage console you can run
+Note: Once you have started the container, you can load GAP packages in sage console as
 ```sh
 sage -i gap_packages
 ```
-to load GAP packages. If you want to load specific packages, e.g., kbmag you can 
-go through gap console via
+If you want to load specific packages, e.g. kbmag, you can access to gap console via
 ```sh
 sage --gap
 ```
