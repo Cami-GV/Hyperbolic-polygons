@@ -17,8 +17,9 @@ However, I have installed Sage through a Docker image, and I have run it into a 
 
 4. Create and run a container. The -it option stands for "interactive", and -p is for setting up a port
   ```sh
-  docker run -it --name <container_name> -p <host_port>:<container_port> <image_name>
+  docker run -v "$(pwd):/home/sage/host" -it --name <container_name> -p <host_port>:<container_port> <image_name>
   ```
+the `image_name` in this case will be `sagemath/sagemath-dev:<version>`.
 
 5. To launch a jupyter notebook, run
 ```sh
